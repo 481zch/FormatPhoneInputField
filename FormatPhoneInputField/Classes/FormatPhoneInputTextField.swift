@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class FormatPhoneInputTextField: UITextField {
+public final class FormatPhoneInputTextField: UITextField {
     
     private let phoneNumberLength: Int
     private let delimiter: String

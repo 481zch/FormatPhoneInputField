@@ -198,7 +198,7 @@
 		3F4B7A42760F95D50987E42BD6E399CD /* Quick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Quick.release.xcconfig; sourceTree = "<group>"; };
 		3FE3C6B0EF06A5BDC213259D5F03B1B7 /* BeLessThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThan.swift; path = Sources/Nimble/Matchers/BeLessThan.swift; sourceTree = "<group>"; };
 		41ED7710C8C7101F486AAFBC6FA9B0AA /* BeIdenticalTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeIdenticalTo.swift; path = Sources/Nimble/Matchers/BeIdenticalTo.swift; sourceTree = "<group>"; };
-		45B7FCCE2DE6A972008C8187 /* FormatPhoneInputTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatPhoneInputTextField.swift; sourceTree = "<group>"; };
+		45B7FDCB2DE6B3E1008C8187 /* FormatPhoneInputTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatPhoneInputTextField.swift; sourceTree = "<group>"; };
 		4C89E09699992D283C80F4565A82890D /* FormatPhoneInputField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FormatPhoneInputField-Info.plist"; sourceTree = "<group>"; };
 		5100F28739CC7C42E629FEFA59D6EDD6 /* ToSucceed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToSucceed.swift; path = Sources/Nimble/Matchers/ToSucceed.swift; sourceTree = "<group>"; };
 		52F65FA44C868EAEA97967B2662BE114 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Quick/Filter.swift; sourceTree = "<group>"; };
@@ -498,7 +498,6 @@
 		BD5B6E6A36C3385CCAAF5B0A6590C32B /* FormatPhoneInputField */ = {
 			isa = PBXGroup;
 			children = (
-				45B7FCCE2DE6A972008C8187 /* FormatPhoneInputTextField.swift */,
 				C02497620D4B631AC4B287E459EB8448 /* Pod */,
 				54FD968A28C02E562E867E047B4D766E /* Support Files */,
 			);
@@ -509,6 +508,7 @@
 		C02497620D4B631AC4B287E459EB8448 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				45B7FDCB2DE6B3E1008C8187 /* FormatPhoneInputTextField.swift */,
 				EA6D9B708836C03407FD331F69E38CDA /* FormatPhoneInputField.podspec */,
 				C92A5F9E38D85598C1073E36BAB2DE2A /* LICENSE */,
 				7E09152F619BE8D07AD231B13EBC6F78 /* README.md */,
