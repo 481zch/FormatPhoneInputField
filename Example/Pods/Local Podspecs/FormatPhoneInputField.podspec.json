@@ -1,0 +1,22 @@
+{
+  "name": "FormatPhoneInputField",
+  "version": "0.1.0",
+  "summary": "A short description of FormatPhoneInputField.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zangconghui/FormatPhoneInputField",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zangconghui": "zangconghui@kanyun.com"
+  },
+  "source": {
+    "git": "https://github.com/zangconghui/FormatPhoneInputField.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "FormatPhoneInputField/Classes/**/*"
+}

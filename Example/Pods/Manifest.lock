@@ -1,0 +1,27 @@
+PODS:
+  - FormatPhoneInputField (0.1.0)
+  - Nimble (10.0.0)
+  - Quick (2.2.1)
+
+DEPENDENCIES:
+  - FormatPhoneInputField (from `../`)
+  - Nimble (~> 10.0.0)
+  - Quick (~> 2.2.0)
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  FormatPhoneInputField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FormatPhoneInputField: 8fee33c2b41850eb7d5056b3855e98ca059914d8
+  Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
+  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+
+PODFILE CHECKSUM: 5b738110f124f24eb5e19bf4daf57e5e24e48c37
+
+COCOAPODS: 1.16.2
