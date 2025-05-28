@@ -28,14 +28,14 @@ public final class FormatPhoneInputTextField: UITextField {
         return positions
     }()
     
-    var realPhoneNumber:String {
+    public var realPhoneNumber:String {
         getOriginPhoneNumber(text ?? "")
     }
-    var isFinished:Bool {
+    public var isFinished:Bool {
         realPhoneNumber.count == phoneNumberLength
     }
     
-    init(_ phoneNumberLength: Int, _ delimiter: String, _ separatePositions: [Int]) {
+    public init(_ phoneNumberLength: Int, _ delimiter: String, _ separatePositions: [Int]) {
         self.phoneNumberLength = phoneNumberLength
         self.delimiter = delimiter
         self.separatePositions = separatePositions
@@ -43,7 +43,7 @@ public final class FormatPhoneInputTextField: UITextField {
         delegate = self
     }
     
-    required init?(coder: NSCoder) {
+    public required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 }
@@ -127,7 +127,7 @@ extension FormatPhoneInputTextField: UITextFieldDelegate {
         return res
     }
     
-    func getOriginPhoneNumber(_ formattedPhoneNumber: String) -> String {
+    private func getOriginPhoneNumber(_ formattedPhoneNumber: String) -> String {
         var dummy = 0
         return getOriginPhoneNumber(formattedPhoneNumber, &dummy)
     }
